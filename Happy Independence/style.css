@@ -1,0 +1,69 @@
+.first {
+    background-color : orange;
+    width : 100%;
+    height : 200px;
+    position: relative;
+}
+.second {
+    width : 100%;
+    height : 200px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    justify-self: center;
+}
+
+
+.third {
+    background-color : green;
+    width : 100%;
+    height : 196px;
+    position: relative;
+}
+.flag{
+    display : block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: rotation 5s infinite linear;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+.freedomfighter{
+    display : block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shubash{
+    display : block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mahatma{
+    display : block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
